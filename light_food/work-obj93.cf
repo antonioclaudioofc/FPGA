@@ -1,0 +1,7 @@
+v 4
+file . "tb_light_food.vhd" "0d4bfecbbf95fb68190ef1360abc40b6d7a9d679" "20250919185030.342":
+  entity tb_light_food at 1( 0) + 0 on 25;
+  architecture sim of tb_light_food at 7( 101) + 0 on 26;
+file . "light_food.vhd" "d8d41bc5e8ef10fc4461eb658ab14181c5c55a72" "20250919185030.303":
+  entity light_food at 1( 0) + 0 on 23;
+  architecture behavior of light_food at 15( 279) + 0 on 24;
