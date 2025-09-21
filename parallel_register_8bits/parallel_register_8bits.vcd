@@ -1,0 +1,580 @@
+$date
+  Sun Sep 21 13:28:59 2025
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module tb_parallel_register_8bits $end
+$var reg 1 ! clk_tb $end
+$var reg 8 " d_tb[7:0] $end
+$var reg 8 # q_tb[7:0] $end
+$var reg 8 $ qn_tb[7:0] $end
+$scope module uut $end
+$var reg 1 % clk $end
+$var reg 8 & d[7:0] $end
+$var reg 8 ' q[7:0] $end
+$var reg 8 ( qn[7:0] $end
+$scope module gen_ff(0) $end
+$scope module ff_i $end
+$var reg 1 ) clk $end
+$var reg 1 * d $end
+$var reg 1 + q $end
+$var reg 1 , qn $end
+$upscope $end
+$upscope $end
+$scope module gen_ff(1) $end
+$scope module ff_i $end
+$var reg 1 - clk $end
+$var reg 1 . d $end
+$var reg 1 / q $end
+$var reg 1 0 qn $end
+$upscope $end
+$upscope $end
+$scope module gen_ff(2) $end
+$scope module ff_i $end
+$var reg 1 1 clk $end
+$var reg 1 2 d $end
+$var reg 1 3 q $end
+$var reg 1 4 qn $end
+$upscope $end
+$upscope $end
+$scope module gen_ff(3) $end
+$scope module ff_i $end
+$var reg 1 5 clk $end
+$var reg 1 6 d $end
+$var reg 1 7 q $end
+$var reg 1 8 qn $end
+$upscope $end
+$upscope $end
+$scope module gen_ff(4) $end
+$scope module ff_i $end
+$var reg 1 9 clk $end
+$var reg 1 : d $end
+$var reg 1 ; q $end
+$var reg 1 < qn $end
+$upscope $end
+$upscope $end
+$scope module gen_ff(5) $end
+$scope module ff_i $end
+$var reg 1 = clk $end
+$var reg 1 > d $end
+$var reg 1 ? q $end
+$var reg 1 @ qn $end
+$upscope $end
+$upscope $end
+$scope module gen_ff(6) $end
+$scope module ff_i $end
+$var reg 1 A clk $end
+$var reg 1 B d $end
+$var reg 1 C q $end
+$var reg 1 D qn $end
+$upscope $end
+$upscope $end
+$scope module gen_ff(7) $end
+$scope module ff_i $end
+$var reg 1 E clk $end
+$var reg 1 F d $end
+$var reg 1 G q $end
+$var reg 1 H qn $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+1!
+b00000000 "
+b00000000 #
+b11111111 $
+1%
+b00000000 &
+b00000000 '
+b11111111 (
+1)
+0*
+0+
+1,
+1-
+0.
+0/
+10
+11
+02
+03
+14
+15
+06
+07
+18
+19
+0:
+0;
+1<
+1=
+0>
+0?
+1@
+1A
+0B
+0C
+1D
+1E
+0F
+0G
+1H
+#5000000
+0!
+0%
+0)
+0-
+01
+05
+09
+0=
+0A
+0E
+#10000000
+1!
+1%
+1)
+1-
+11
+15
+19
+1=
+1A
+1E
+#15000000
+0!
+0%
+0)
+0-
+01
+05
+09
+0=
+0A
+0E
+#20000000
+1!
+1%
+1)
+1-
+11
+15
+19
+1=
+1A
+1E
+#25000000
+0!
+b11111111 "
+0%
+b11111111 &
+0)
+1*
+0-
+1.
+01
+12
+05
+16
+09
+1:
+0=
+1>
+0A
+1B
+0E
+1F
+#30000000
+1!
+b11111111 #
+b00000000 $
+1%
+b11111111 '
+b00000000 (
+1)
+1+
+0,
+1-
+1/
+00
+11
+13
+04
+15
+17
+08
+19
+1;
+0<
+1=
+1?
+0@
+1A
+1C
+0D
+1E
+1G
+0H
+#35000000
+0!
+b01010101 "
+0%
+b01010101 &
+0)
+0-
+0.
+01
+05
+06
+09
+0=
+0>
+0A
+0E
+0F
+#40000000
+1!
+b01010101 #
+b10101010 $
+1%
+b01010101 '
+b10101010 (
+1)
+1-
+0/
+10
+11
+15
+07
+18
+19
+1=
+0?
+1@
+1A
+1E
+0G
+1H
+#45000000
+0!
+b10101010 "
+0%
+b10101010 &
+0)
+0*
+0-
+1.
+01
+02
+05
+16
+09
+0:
+0=
+1>
+0A
+0B
+0E
+1F
+#50000000
+1!
+b10101010 #
+b01010101 $
+1%
+b10101010 '
+b01010101 (
+1)
+0+
+1,
+1-
+1/
+00
+11
+03
+14
+15
+17
+08
+19
+0;
+1<
+1=
+1?
+0@
+1A
+0C
+1D
+1E
+1G
+0H
+#55000000
+0!
+b11110000 "
+0%
+b11110000 &
+0)
+0-
+0.
+01
+05
+06
+09
+1:
+0=
+0A
+1B
+0E
+#60000000
+1!
+b11110000 #
+b00001111 $
+1%
+b11110000 '
+b00001111 (
+1)
+1-
+0/
+10
+11
+15
+07
+18
+19
+1;
+0<
+1=
+1A
+1C
+0D
+1E
+#65000000
+0!
+b00001111 "
+0%
+b00001111 &
+0)
+1*
+0-
+1.
+01
+12
+05
+16
+09
+0:
+0=
+0>
+0A
+0B
+0E
+0F
+#70000000
+1!
+b00001111 #
+b11110000 $
+1%
+b00001111 '
+b11110000 (
+1)
+1+
+0,
+1-
+1/
+00
+11
+13
+04
+15
+17
+08
+19
+0;
+1<
+1=
+0?
+1@
+1A
+0C
+1D
+1E
+0G
+1H
+#75000000
+0!
+b11001100 "
+0%
+b11001100 &
+0)
+0*
+0-
+0.
+01
+05
+09
+0=
+0A
+1B
+0E
+1F
+#80000000
+1!
+b11001100 #
+b00110011 $
+1%
+b11001100 '
+b00110011 (
+1)
+0+
+1,
+1-
+0/
+10
+11
+15
+19
+1=
+1A
+1C
+0D
+1E
+1G
+0H
+#85000000
+0!
+b00110011 "
+0%
+b00110011 &
+0)
+1*
+0-
+1.
+01
+02
+05
+06
+09
+1:
+0=
+1>
+0A
+0B
+0E
+0F
+#90000000
+1!
+b00110011 #
+b11001100 $
+1%
+b00110011 '
+b11001100 (
+1)
+1+
+0,
+1-
+1/
+00
+11
+03
+14
+15
+07
+18
+19
+1;
+0<
+1=
+1?
+0@
+1A
+0C
+1D
+1E
+0G
+1H
+#95000000
+0!
+b10000000 "
+0%
+b10000000 &
+0)
+0*
+0-
+0.
+01
+05
+09
+0:
+0=
+0>
+0A
+0E
+1F
+#100000000
+#105000000
+b00000001 "
+b00000001 &
+1*
+0F
+#115000000
+b01111111 "
+b01111111 &
+1.
+12
+16
+1:
+1>
+1B
+#125000000
+b11111110 "
+b11111110 &
+0*
+1F
+#135000000
+b10100101 "
+b10100101 &
+1*
+0.
+06
+0:
+0B
+#145000000
+b01011010 "
+b01011010 &
+0*
+1.
+02
+16
+1:
+0>
+1B
+0F
+#155000000
+b10011001 "
+b10011001 &
+1*
+0.
+0B
+1F
+#165000000
+b01100110 "
+b01100110 &
+0*
+1.
+12
+06
+0:
+1>
+1B
+0F
+#175000000
+#195000000
