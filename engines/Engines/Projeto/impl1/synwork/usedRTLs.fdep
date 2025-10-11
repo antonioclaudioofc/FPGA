@@ -1,0 +1,5 @@
+#List of actual used RTLs.
+
+File                                                                                   Type     IN_PROJECT/INCLUDED/LIBRARY
+
+"C:\Users\claud\Documents\digitaljs\residencia\engines\Engines\Arquivos\top.sv"     verilog                      IN PROJECT

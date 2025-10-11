@@ -1,0 +1,85 @@
+{
+"Synplify Pro (R) Job Log" : {
+	"Date" : "17:05:36    11-Oct-2025",
+	"Working Directory" : "C:/Users/claud/Documents/digitaljs/residencia/engines/Engines/Projeto/impl1",
+	"Install" : "C:/lscc/diamond/3.14/synpbase"
+},
+"impl1" :{
+   "Job Flow" : "Sequential",
+   "Start Time" : "17:05:24",
+   "Runtime" : "12s",
+   "Executable Run Time" : "10s",
+   "synthesis" : {
+      "Job Flow" : "Sequential",
+      "Start Time" : "17:05:24",
+      "Runtime" : "12s",
+      "Executable Run Time" : "10s",
+      "compile" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "17:05:24",
+         "Runtime" : "06s",
+         "Executable Run Time" : "04s",
+         "compile_flow" : {
+            "Job Flow" : "Sequential",
+            "Start Time" : "17:05:24",
+            "Runtime" : "03s",
+            "Executable Run Time" : "01s",
+            "compiler" : {
+               "executable" : "bin64/c_hdl.exe",
+               "Run Directory" : "C:/Users/claud/Documents/digitaljs/residencia/engines/Engines/Projeto/impl1",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "17:05:24",
+               "Run Time" : "02s",
+               "Exe Run Time" : "01s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            },
+            "multi_srs_gen" : {
+               "executable" : "bin64/syn_nfilter.exe",
+               "Run Directory" : "C:/Users/claud/Documents/digitaljs/residencia/engines/Engines/Projeto/impl1",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "17:05:26",
+               "Run Time" : "01s",
+               "Exe Run Time" : "00s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            }
+         },
+         "premap" : {
+            "executable" : "bin64/m_gen_lattice.exe",
+            "Run Directory" : "C:/Users/claud/Documents/digitaljs/residencia/engines/Engines/Projeto/impl1",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "17:05:27",
+            "Run Time" : "03s",
+            "Exe Run Time" : "03s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      },
+      "map" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "17:05:30",
+         "Runtime" : "06s",
+         "Executable Run Time" : "06s",
+         "fpga_mapper" : {
+            "executable" : "bin64/m_gen_lattice.exe",
+            "Run Directory" : "C:/Users/claud/Documents/digitaljs/residencia/engines/Engines/Projeto/impl1",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "17:05:30",
+            "Run Time" : "06s",
+            "Exe Run Time" : "06s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      }
+   }
+}
+}

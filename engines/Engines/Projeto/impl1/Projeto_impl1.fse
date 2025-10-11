@@ -1,0 +1,10 @@
+
+fsm_encoding {514621461} sequential
+
+fsm_state_encoding {514621461} IDLE {00}
+
+fsm_state_encoding {514621461} M1_ON {01}
+
+fsm_state_encoding {514621461} M2_ON {10}
+
+fsm_registers {514621461} {st[1]}  {st[0]} 
