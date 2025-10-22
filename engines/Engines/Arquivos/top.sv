@@ -2,7 +2,7 @@
 `default_nettype none
 // ============================================================================
 // top.sv — ÚNICO MÓDULO (ECP5 Colorlight-i9 @25 MHz)
-// I1=START (pulso), I2=STOP (pulso), I3=RESET (pulso),
+// I1=BOTÃO ÚNICO (1º clique=START, 2º clique=STOP, longo=RESET),
 // I4=MODO_TESTE (nível: 0=30 s, 1=3 s), I5=LED_EN (nível: 1=LED placa pisca)
 // O1=M1, O2=M2, O3=cronômetro ativo (1 Hz quando em ciclo), O4=em ciclo, O5=heartbeat (~2 Hz)
 // ============================================================================
@@ -10,10 +10,11 @@
 module top #(
   // relógio e botões
   parameter integer F_CLK_HZ            = 25_000_000,
-  parameter         BTN_ACTIVE_LOW      = 1,  // I1..I3 físicos com pull-up?
+  parameter         BTN_ACTIVE_LOW      = 1,  // I1 físico com pull-up?
   parameter         TEST_ACTIVE_LOW     = 0,  // I4 ativo-baixo?
   parameter         LEDEN_ACTIVE_LOW    = 0,  // I5 ativo-baixo?
   parameter integer DB_MS               = 5,
+  parameter integer LONG_PRESS_MS       = 1000, // pressionamento longo para reset
 
   // tempos e piscas
   parameter integer NORMAL_SECS         = 30,
@@ -23,7 +24,7 @@ module top #(
   parameter integer DIV_O5_TOGGLE       = F_CLK_HZ/4  // 0,25s -> ~2Hz
 )(
   input  wire clk,
-  input  wire I1, I2, I3, I4, I5,
+  input  wire I1, I4, I5,  // Apenas 3 entradas agora (removeu I2 e I3)
   output reg  led,
   output reg  O1, O2, O3, O4, O5
 );
